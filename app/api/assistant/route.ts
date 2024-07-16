@@ -5,12 +5,12 @@ import { createOpenAI } from '@ai-sdk/openai';
 
 
 //todo adaptar perplexity api
-const perplexity = createOpenAI({
-  apiKey: process.env.PERPLEXITY_API_KEY ?? '',
-  baseURL: 'https://api.perplexity.ai/',
-});
-
-const model = perplexity('llama-3-sonar-large-32k-online');
+// const perplexity = createOpenAI({
+//   apiKey: process.env.PERPLEXITY_API_KEY ?? '',
+//   baseURL: 'https://api.perplexity.ai/',
+// });
+//
+// const model = perplexity('llama-3-sonar-large-32k-online');
 
 
 // Create an OpenAI API client (that's edge friendly!)
